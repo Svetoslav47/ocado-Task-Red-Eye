@@ -38,7 +38,7 @@ def compute_solution(images: List[Union[PackedImage, StrideImage]]):
 
         #we go trough every row in increments of 5, we will for sure find a wall
         for col in range(0, image.resolution.height):
-            for row in range(0, image.resolution.width, 1):
+            for row in range(0, image.resolution.width, 5):
                 if(npImage[col][row] >= 200):
                     #finding the exact place of the square
                     top_left = (col, row)
