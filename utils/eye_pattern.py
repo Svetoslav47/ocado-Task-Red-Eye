@@ -7,7 +7,7 @@ EyePattern = Tuple[str, str, str, str, str]
 eyePatterns = []
 
 
-# zashto gi razmeni ve baluk?
+# they are changed because the + will conflilct with - and |
 EYE_PATTERN_1: EyePattern = (
   "/---\\",
   "| | |",

@@ -20,8 +20,6 @@ from utils.eye_pattern import eyePatterns
 
 from einops import rearrange
 
-import cv2
-
 def compute_solution(images: List[Union[PackedImage, StrideImage]]):
     ft = FunctionTracer("compute_solution", "seconds")
 

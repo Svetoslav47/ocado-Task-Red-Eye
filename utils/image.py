@@ -5,7 +5,6 @@ from utils.resolution import Resolution
 from utils.pixel import Pixel
 from enum import Enum
 
-import cv2
 import numpy as np
 from einops import rearrange
 class ImageType(Enum):
